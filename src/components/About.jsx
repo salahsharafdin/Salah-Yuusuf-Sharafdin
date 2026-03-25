@@ -10,6 +10,7 @@ const About = () => {
             src={Hello}
             alt="Profile"
             className="w-48 h-48 rounded-full object-cover border-4 border-indigo-500 shadow-lg hover:scale-105 transition"
+            onLoad={(e) => e.currentTarget.classList.remove("opacity-0")}
           /></a>
         </div>
 

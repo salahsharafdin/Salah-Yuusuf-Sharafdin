@@ -12,17 +12,17 @@ export default function Footer() {
 
        
         <p className="text-sm mb-6">
-          Waxaan dhisnaa websites casri ah oo user-friendly ah hadaa ubaahato naga soobooqo website keena <a className='text-[rgb(58_204_105)] ' href="https://www.goobolabs.so/" target="_blank">Goobo labs</a>
+          We build modern, user-friendly websites. If you need a website, visit us at <a className='text-[rgb(58_204_105)] ' href="https://www.goobolabs.so/" target="_blank">Goobo labs</a>
         </p>
 
-        <div className="flex justify-center space-x-5 mb-6 text-xl">
+        <div className="flex justify-center space-x-5 mb-6 text-2xl">
 
-          <a href="https://wa.me/252617621631" target="_blank" rel="noopener noreferrer">
+          <a className="text-green-600" href="https://wa.me/252619708582" target="_blank" rel="noopener noreferrer">
             <FaWhatsapp />
           </a>
 
 
-          <a href="https://github.com/salahsharafdin" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/orgs/goobolabs/projects?query=is%3Aopen" target="_blank" rel="noopener noreferrer">
             <FaGithub />
           </a>
 
