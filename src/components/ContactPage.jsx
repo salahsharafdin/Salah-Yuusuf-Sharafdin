@@ -1,5 +1,5 @@
 import React from "react";
-import { FaWhatsapp, FaGithub,} from "react-icons/fa";
+import { FaWhatsapp, FaGithub, FaArrowCircleDown,} from "react-icons/fa";
 
 const ContactPage = () => {
   return (
@@ -8,8 +8,11 @@ const ContactPage = () => {
         
         <h1 className="text-4xl md:text-5xl font-bold mb-3">Get in Touch</h1>
         <p className="text-gray-400 mb-10">
-          Connect with me through WhatsApp or my social profiles!
+          if you are satisfied with her work, contact me here!
         </p>
+        <div className="flex justify-center mb-3 text-2xl">
+          <FaArrowCircleDown />
+        </div>
 
         <div className="flex justify-center mb-6">
           <a

@@ -6,11 +6,11 @@ const About = () => {
       <div className="max-w-4xl bg-gray-800 bg-opacity-70 rounded-2xl shadow-lg p-8 flex flex-col md:flex-row items-center md:items-start gap-8">
         
         <div className="flex-shrink-0">
-          <img
+          <a href="https://github.com/salahsharafdin" target="_blank" rel="noopener noreferrer"><img
             src={Hello}
             alt="Profile"
-            className="w-48 h-48 rounded-full object-cover border-4 border-indigo-500 shadow-lg"
-          />
+            className="w-48 h-48 rounded-full object-cover border-4 border-indigo-500 shadow-lg hover:scale-105 transition"
+          /></a>
         </div>
 
         <div className="flex-1 text-center md:text-left">
