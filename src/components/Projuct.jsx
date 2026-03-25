@@ -1,7 +1,7 @@
 const projects = [
   {
     title: "Gym Website",
-    desc: "Responsive gym website with Tailwind",
+    desc: "Responsive gym website",
     image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z3ltfGVufDB8fDB8fHww",
     live: "https://training-studio-orpin.vercel.app/",
     github: "https://github.com/salahsharafdin/TRAINING-STUDIO",
