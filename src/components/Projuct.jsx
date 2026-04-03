@@ -1,17 +1,29 @@
+import barber from '../assets/barber.png';
+import Tukaan from '../assets/Tukaan.png';
+import gym from '../assets/GYM.png';
+
 const projects = [
   {
     title: "Gym Website",
     desc: "Responsive gym website",
-    image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z3ltfGVufDB8fDB8fHww",
+    image: gym,
     live: "https://training-studio-orpin.vercel.app/",
     github: "https://github.com/salahsharafdin/TRAINING-STUDIO",
   },
   {
     title: "e-Commerce ",
     desc: "e-Commerce  web page",
-    image: "https://images.unsplash.com/photo-1658297063569-162817482fb6?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: Tukaan,
     live: "https://xamar.vercel.app/",
     github: 'https://github.com/salahsharafdin/E-Commerce',
+  },
+
+   {
+    title: "barber shop",
+    desc: "barber shop web page",
+    image: barber,
+    live: "https://barasho.vercel.app/",
+    github: 'https://github.com/salahsharafdin/barasho',
   },
   
 ];
