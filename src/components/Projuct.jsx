@@ -23,7 +23,7 @@ const projects = [
     desc: "barber shop web page",
     image: barber,
     live: "https://barasho.vercel.app/",
-    github: 'https://github.com/salahsharafdin/barasho',
+    github: 'https://github.com/salahsharafdin/barber',
   },
   
 ];
